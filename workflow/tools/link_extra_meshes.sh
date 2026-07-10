@@ -5,7 +5,7 @@ run_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 HOMErrfs="${run_dir}/../../"
 
 # ar3.5km at gaeac6
-meshdir="/gpfs/f6/arfs-gsl/world-shared/extra_meshes/ar3.5km"
+meshdir="/work/noaa/zrtrr/FIX_MESHES/ar3.5km"
 if [[ -d ${meshdir} ]]; then
   ln -snf "${meshdir}" "${HOMErrfs}/fix"
 fi
